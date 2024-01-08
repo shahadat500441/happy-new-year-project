@@ -235,6 +235,11 @@
     line-height: 32px;
     /* 160% */
 }
+.round{
+    outline: 10px solid #F00 ;
+    padding: 20px;
+    border-radius: 50%;
+}
 
 .comingsoon-text-container {
     line-height: 10px;
