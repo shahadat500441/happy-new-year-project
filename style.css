@@ -2,7 +2,7 @@
 
 
 .banner {
-    background-image: url('../images/banner-img.png');
+    background-image: url('images/banner-img.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 1320px;
@@ -70,7 +70,7 @@
 /* welcome section related style  start*/
 .welcome-section {
 
-    background-image: url('../images/Vectorrr.png');
+    background-image: url('images/Vectorrr.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 1320px;
