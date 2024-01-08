@@ -137,12 +137,13 @@
     text-align: center;
     border-radius: 15px;
     margin: 0 auto;
-    /* padidng:100px 280px; */
- 
- 
+   padding-top:120px
+
+
 }
-.time-section-container h3{
-    margin:50px auto;
+
+.time-section-container h3 {
+    margin: 50px auto;
 }
 
 .tiem-section h3 {
@@ -165,7 +166,7 @@
 
 .tiem-section .btn-secondary {
     color: #FFF;
- 
+
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
@@ -173,109 +174,160 @@
     border-radius: 8px;
     background: #F00;
     padding: 15px 30px;
-    border:none;
+    border: none;
 }
+
 /* comingsoon section related style */
 
-.comingsoon-section-container{
+.comingsoon-section-container {
     display: flex;
-    gap:50px ;
+    gap: 50px;
     justify-content: space-around;
     width: 1320px;
     margin: 0 auto;
-    margin-top:110px;
+    margin-top: 110px;
 }
-.comingsoon-item{
+
+.comingsoon-item {
     line-height: 20px;
 }
-.comingsoon-greeting{
+
+.comingsoon-greeting {
     color: #F00;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
 
 }
-.comingsoon-title{
+
+.comingsoon-title {
     color: #070211;
-font-family: Merriweather;
-font-size: 48px;
-font-weight: 900;
-text-transform: capitalize;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
 }
-.comingsoon-description{
+
+.comingsoon-description {
     width: 393px;
     color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
+    font-family: Inter;
+    font-size: 20px;
 
-font-weight: 400;
-line-height: 32px; /* 160% */
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
 }
 
-.comming-text{
+.comming-text {
     color: #F00;
-font-family: Inter;
-font-size: 48px;
-font-weight: 700;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
 
 }
-.comingsoon-text-description{
+
+.comingsoon-text-description {
     width: 276px;
     color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
+    font-family: Inter;
+    font-size: 20px;
 
-font-weight: 400;
-line-height: 32px; /* 160% */
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
 }
-.comingsoon-text-container{
+
+.comingsoon-text-container {
     line-height: 10px;
     margin-bottom: 75px;
 }
 
-.comingsoon-section{
+.comingsoon-section {
     margin-bottom: 110px;
-   
+
 }
+
 /* sales section related style */
-.sales-container{
+.sales-container {
     text-align: center;
 }
-.sales-greeting{
+
+.sales-greeting {
     color: #070211;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-line-height: 15px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+   
 }
-.sales-title{
+
+.sales-title {
     color: #070211;
-font-family: Merriweather;
-font-size: 72px;
-font-weight: 900;
-line-height: 30px;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 30px;
 
 }
-.sales-important{
+
+.sales-important {
     color: #F00;
-text-align: center;
-font-family: Merriweather;
-font-size: 72px;
-font-weight: 900;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
 
 }
-.sales-description{
+
+.sales-description {
     width: 1068px;
     margin: 0 auto;
     color: rgba(7, 2, 17, 0.60);
-text-align: center;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    /* 160% */
+
+}
+
+.sale-section {
+    margin-bottom: 65px;
+}
+
+/* gift section related style */
+.gift-section{
+    width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom:45px ;
+}
+.gift-greeting{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.gift-title{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+
+font-weight: 900;
+line-height: 20px;
+text-transform: capitalize;
+}
+.gift-description{
+    color: rgba(7, 2, 17, 0.60);
 font-family: Inter;
 font-size: 20px;
 font-style: normal;
-font-weight: 500;
+font-weight: 400;
 line-height: 32px; /* 160% */
+}
 
-}
-.sale-section{
-    margin-bottom: 65px;
-}
+
