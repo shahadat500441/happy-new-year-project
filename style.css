@@ -233,8 +233,49 @@ line-height: 32px; /* 160% */
     margin-bottom: 75px;
 }
 
-
-
 .comingsoon-section{
     margin-bottom: 110px;
+   
+}
+/* sales section related style */
+.sales-container{
+    text-align: center;
+}
+.sales-greeting{
+    color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 15px;
+}
+.sales-title{
+    color: #070211;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 30px;
+
+}
+.sales-important{
+    color: #F00;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+
+}
+.sales-description{
+    width: 1068px;
+    margin: 0 auto;
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 160% */
+
+}
+.sale-section{
+    margin-bottom: 65px;
 }
