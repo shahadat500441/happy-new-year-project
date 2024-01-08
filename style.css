@@ -137,11 +137,12 @@
     text-align: center;
     border-radius: 15px;
     margin: 0 auto;
-    padidng:100px 280px;
+    /* padidng:100px 280px; */
+ 
  
 }
-.time-section-container{
-    margin-top: 150px;
+.time-section-container h3{
+    margin:50px auto;
 }
 
 .tiem-section h3 {
@@ -150,11 +151,11 @@
     font-size: 32px;
     font-weight: 600;
     text-transform: capitalize;
+    line-height: 20px;
 }
 
 .text-primary {
     color: #F00;
-    text-align: center;
     font-family: Inter;
     font-size: 32px;
     font-weight: 600;
@@ -164,7 +165,7 @@
 
 .tiem-section .btn-secondary {
     color: #FFF;
-    text-align: center;
+ 
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
@@ -173,4 +174,67 @@
     background: #F00;
     padding: 15px 30px;
     border:none;
+}
+/* comingsoon section related style */
+
+.comingsoon-section-container{
+    display: flex;
+    gap:50px ;
+    justify-content: space-around;
+    width: 1320px;
+    margin: 0 auto;
+    margin-top:110px;
+}
+.comingsoon-item{
+    line-height: 20px;
+}
+.comingsoon-greeting{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+
+}
+.comingsoon-title{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+}
+.comingsoon-description{
+    width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+
+.comming-text{
+    color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+
+}
+.comingsoon-text-description{
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+.comingsoon-text-container{
+    line-height: 10px;
+    margin-bottom: 75px;
+}
+
+
+
+.comingsoon-section{
+    margin-bottom: 110px;
 }
