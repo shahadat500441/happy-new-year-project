@@ -303,6 +303,7 @@
     margin: 0 auto;
     text-align: left;
     margin-bottom:45px ;
+    margin-left:350px;
 }
 .gift-greeting{
     color: #F00;
@@ -329,5 +330,24 @@ font-style: normal;
 font-weight: 400;
 line-height: 32px; /* 160% */
 }
+/* product img section related style */
+.product-section-part_A img{
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+    box-shadow: 5px 5px 5px;
+    
+    
 
+}
+.product-section-part_A{
+    display: flex;
+    gap:24px;
+    justify-content: center;
+    margin-bottom: 25px;
+ 
+}
+.product{
+    margin-bottom: 120px;
+}
 
